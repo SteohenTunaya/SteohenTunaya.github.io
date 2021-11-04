@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@279&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+
+  <title>THE BEST NEWS WEBSITE</title>
+
+<style>
+@font-face{
+font-family:A;
+src:url(upheavtt.ttf);}
+
+.dropbtn {
+  color: white;
+  font-size: 25px;
+  border: none;
+font-family: 'A';
+  cursor: pointer;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1B1B1B;
+  min-width:100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #1B1B1B;
+}
+
+
+body{
+margin:0px;
+margin-left:auto;
+margin-right:auto;
+width:1000px;
+background-color:black;
+font-family: 'A'
+}
+
+#main{
+width:600px;
+height:300px;
+color:white;
+text-align:center;
+padding:10px;
+font-size:30px;
+float: left;
+background-color:#39373A;
+border-radius: 4%;
+margin-top: 150px;
+margin-left:310px;
+margin-right:310px;
+box-shadow: 3px 3px 
+#1B1B1B;
+}
+
+
+
+#head{
+font-size:60px;
+color: white;
+width:1440px;
+height:200px;
+text-align:center;
+background-image: url("head.gif");
+font-family: 'A';
+-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#water{
+margin-top:30px;
+width:170px;
+height:400px;
+}
+
+
+
+#logo{
+height:170px;
+width:170px;
+vertical-align:bottom;
+margin-top:10px;}
+
+.ad{
+height:170px;
+width:170px;
+vertical-align:bottom;
+margin-top:50px;
+}
+#body{
+width:1248px;
+height:1100px;
+background-image:url("back.gif");
+margin-left:190px;
+background-size:cover;
+
+
+
+}
+
+#side{
+width:190px;
+height:1067px;
+float:left;
+background-image:url("SideBack.gif");
+text-align:center;
+border: 3px solid black;
+color:white;
+}
+
+#bar{
+margin-left:auto;
+margin-right:auto;
+width:1440px;
+height: 50px;
+text-align:center;
+background-color: 
+#FEDB5A;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+
+}
+
+.bird{
+width:200px;
+height:300px;
+border-radius:5%;
+}
+
+.pic{
+width:200px;
+height:300px;
+float:left;
+margin-left:80px;
+margin-top:40px;
+border-radius:5%;
+box-shadow: 3px 3px 
+#1B1B1B;
+}
+
+.pic2{
+width:200px;
+height:300px;
+float:left;
+margin-left:200px;
+margin-top:40px;
+border-radius:5%;
+box-shadow: 3px 3px 
+#1B1B1B;
+}
+
+table a{
+text-decoration: none;
+color:white;
+}
+
+table{
+color:white;
+width:1440px;
+height:50px;
+background-color:black;
+font-family: 'A';
+font-size: 25px;
+}
+
+td{
+list-style-type: none;
+background-color:
+#39373A;
+background-size:cover;
+}
+
+
+
+tr{
+border: 1px solid;
+}
+
+table a:hover {
+  background-color:blue
+;
+  color: gold;
+
+}
+.word{
+background-color:#39373A;
+  color: white;
+width:40px;
+height:220px;
+float:left;
+margin-top:40px;
+padding:40px;
+border-radius:5%;
+box-shadow: 3px 3px 
+#1B1B1B;
+writing-mode: vertical-rl;
+font-size:40px;
+text-align:center;
+}
+
+#SPECIAL{
+background-color:#39373A;
+color: white;
+width:40px;
+height:220px;
+float:left;
+margin-top:40px;
+padding:40px;
+border-radius:5%;
+box-shadow: 3px 3px 
+#1B1B1B;
+writing-mode: vertical-rl;
+font-size:35px;
+text-align:center;
+}
+
+
+
+p{
+padding-left:6px;
+font-family: 'A';
+}
+
+#sideW{
+padding-right:6px;
+}
+
+h3{
+font-size:15px;
+background-color:grey;
+text-align:center;
+color:white;
+}
+
+
+
+#foot {
+position: absolute;
+  top: 1402px;
+  height: 100px;
+  width: 1440px;
+  background-color:#39373A;
+  color: white;
+  text-align: center;
+border: 2px solid;
+border-color: black;
+padding-top:10px;
+}
+</style>
+</head>
+
+
+<body>
+
+<div id="head">
+<h1><img id="logo" alt="Avatar" src="logo.gif">Like-ify</h1>
+</div>
+
+<div id="bar">
+<table>
+<tr>
+<td><a href="index.html">Home</a></td>
+<td><a href="About.html">About us</a></td>
+<td><div class="dropdown">
+  <button class="dropbtn">Explore</button>
+  <div class="dropdown-content">
+    <a href="ben&ben.html">BEN&Ben</a>
+    <a href="adele.html">adele</a>
+    <a href="LoveJoy.html">Lovejoy</a>
+  </div>
+</div> </td>
+<td><a href="https://youtu.be/dQw4w9WgXcQ">SUPRISE!!!!</a></td>
+</tr>
+</table>
+
+</div>
+
+
+
+<div id="side">
+<img class="ad" src="ad.jpeg" alt="avatar">
+
+<img class="ad" alt="Avatar" src="ad2.jpeg">
+
+<img class="ad" alt="Avatar" src="ad3.jpeg">
+
+<img class="ad" alt="Avatar" src="ad4.jpeg">
+</div>
+
+<div id="body">
+
+<div id="main">
+<br>
+Welcome to Like-Ify the best website if you want to know what music I like. To get started either click the Explore button or click one of the picture.(Click the Pictures in other pages for a wonderful suprise)
+</div>
+
+<div class="pic"><a href="adele.html">
+<img class="bird" src="Adele.png" alt="Avatar"></a>
+</div>
+
+<div class="word">
+Adele
+</div>
+
+
+<div class="pic">    
+<a href="ben&ben.html">
+<img class="bird" src="Ben.png" alt="Avatar"></a>
+</div>
+
+<div id="SPECIAL">
+BEN AND BEN
+</div>
+
+
+<div class="pic">    
+<a href="LoveJoy.html"><img class="bird" src="Lovejoy.png" alt="Avatar"></a>
+</div>
+
+<div class="word">
+Love-Joy
+</div>
+</div>
+
+
+
+
+
+
+
+<div  id="foot">
+all pictures of artist ARE NOT MINE though.
+I made all the assets
+</div>
+
+</body>
+
+</html>
